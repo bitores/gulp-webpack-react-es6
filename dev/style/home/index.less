@@ -1,0 +1,23 @@
+/**
+ * before
+ */
+body {
+  background: white;
+  color: #333;
+  transform: rotate(45deg);
+  display: flex;
+}
+
+/**
+ * after
+ */
+body {
+  background: white;
+  color: #333;
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
